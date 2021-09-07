@@ -33,12 +33,12 @@ namespace GameManager.Data
         public virtual GameSystem GameSystem { get; set; }
     }
 
-    public enum rating
+    public enum Rating
     {
-        e = 1,
-        e10 = 2,
-        t,
-        m
+        E = 1,
+        E10 = 2,
+        T,
+        M
     }
 
     //public enum Genre
